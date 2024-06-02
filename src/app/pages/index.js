@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <img src="/logo.svg" className={styles.logo} alt="logo" />
+        <img src="public/logo1.png" className={styles.logo} alt="logo" />
         <h1>Welcome to I On You Reviews</h1>
         <h3>Giving Power to the Users</h3>
         <div className={styles.buttonContainer}>
@@ -18,15 +18,15 @@ export default function Home() {
       <QueryInput />
       <nav className={styles.nav}>
         <div className={styles.navItem}>
-          <img src="/icons/search.svg" alt="search icon" />
+          <img src="public/icons/logo2.png" alt="search icon" />
           <p>Search</p>
         </div>
         <div className={styles.navItem}>
-          <img src="/icons/saved.svg" alt="saved icon" />
+          <img src="public/icons/logo2.png" alt="saved icon" />
           <p>Saved</p>
         </div>
         <div className={styles.navItem}>
-          <img src="/icons/filter.svg" alt="filter icon" />
+          <img src="public/icons/logo2.png" alt="filter icon" />
           <p>Filter</p>
         </div>
       </nav>
